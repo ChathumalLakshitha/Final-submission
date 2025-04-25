@@ -1,0 +1,291 @@
+/* Custom CSS for Paws & Clows */
+
+/* Apply a modern popping font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #f8f9fa; /* Light background */
+    padding: 10px 20px;
+}
+
+.navbar .logo {
+    width: 200px;
+}
+
+.navbar .brand-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+}
+
+
+/* Search Bar */
+.search-bar input {
+    border-radius: 20px;
+    padding: 8px 15px; /* Adjust padding for input field */
+    height: 40px; /* Set a fixed height for the input field */
+}
+
+.search-bar button {
+    background-color: #007bff;
+    border-radius: 20px;
+    font-weight: 500;
+    padding: 8px 20px; /* Adjust padding for button */
+    font-size: 1rem; /* Adjust font size for button */
+    height: 40px; /* Set a fixed height for the button */
+    line-height: 1; /* Ensure text is vertically centered */
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Vertically center the text */
+    justify-content: center; /* Horizontally center the text */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Bootstrap's primary color */
+    text-decoration: underline;
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: 700;
+    color: #007bff;
+}
+
+/* Custom Carousel Sizing */
+.custom-carousel {
+    max-width: 1400px; /* Adjust width */
+    max-height: 500px; /* Adjust height */
+    margin: 0 auto; /* Center the carousel */
+    overflow: hidden; /* Ensure images fit within bounds */
+    margin-top: 20px;
+}
+
+.custom-carousel .carousel-inner img {
+    object-fit: cover; /* Ensure images fill the carousel size */
+    height: 100%; /* Fit the height */
+    width: 100%; /* Fit the width */
+    border-radius: 15px; /* Optional rounded edges for a polished look */
+}
+
+.container_01{
+    margin-top: 20px;
+}
+/* Custom CSS for Round Image Cards */
+.round-image-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .round-image-card img {
+    width: 150px; /* Adjust the size of the circular image */
+    height: 150px; /* Adjust the size of the circular image */
+    object-fit: cover; /* Ensures the image covers the circle */
+    border: 3px solid #ddd; /* Optional: Add a border */
+    transition: transform 0.3s ease, border-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .round-image-card img:hover {
+    transform: scale(1.1); /* Slightly enlarge the image on hover */
+    border-color: #007bff; /* Change border color on hover */
+  }
+  
+  .round-image-card h5 {
+    font-size: 1.25rem; /* Adjust the font size of the category name */
+    font-weight: bold;
+    margin-top: 15px; /* Spacing between image and text */
+  }
+
+ /* Custom CSS for Inspiration Section */
+.inspiration-section {
+    padding: 60px 0; /* Add padding to the section */
+    background-color: #f2f8ff; /* Light background color */
+    margin-bottom: 20px;
+  }
+  
+  .section-title {
+    font-size: 2.5rem; /* Large font size for the heading */
+    font-weight: bold; /* Bold text */
+    margin-bottom: 40px; /* Spacing below the heading */
+    color: #333; /* Dark text color */
+  }
+  
+  .inspiration-card {
+    padding: 20px; /* Add padding inside each card */
+    background-color: #fff; /* White background for the card */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .inspiration-card:hover {
+    transform: translateY(-10px); /* Lift the card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+  }
+  
+  .inspiration-image {
+    width: 100px; /* Set image size */
+    height: 100px; /* Set image size */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Ensure the image covers the circle */
+    margin-bottom: 20px; /* Spacing below the image */
+  }
+  
+  .inspiration-text {
+    font-size: 1.1rem; /* Font size for the text */
+    color: #555; /* Slightly lighter text color */
+    line-height: 1.6; /* Improve readability with line height */
+    margin-bottom: 0; /* Remove margin at the bottom */
+  }
+
+  /*About Us*/
+
+    .AboutUsImg img {
+        width: 100%; /* Make the image responsive and take up 100% of its container */
+        height: auto; /* Maintain the aspect ratio */
+        max-width: 90%; /* Optional: Set a maximum width for the image */
+        display: block; /* Ensure the image is centered */
+        margin: 0 auto; /* Center the image horizontally */
+        border-radius: 10px; /* Optional: Add rounded corners */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    }
+
+    .AboutUsImg {
+        padding: 20px; /* Add some padding around the image */
+        text-align: center; /* Center the image container */
+    }
+/* Custom CSS for the Our Pets Section */
+.our-pets-section {
+    padding: 60px 0; /* Add padding to the section */
+    background-color: #f8f9fa; /* Light background color */
+}
+
+.section-title {
+    font-size: 2.5rem; /* Large font size for the heading */
+    font-weight: bold; /* Bold text */
+    margin-bottom: 40px; /* Spacing below the heading */
+    color: #333; /* Dark text color */
+}
+
+.pet-card {
+    background-color: #fff; /* White background for the card */
+    padding: 20px; /* Add padding inside the card */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.pet-card:hover {
+    transform: translateY(-5px); /* Lift the card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.pet-image {
+    width: 150px; /* Set image size */
+    height: 150px; /* Set image size */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Ensure the image covers the circle */
+    margin-bottom: 15px; /* Spacing below the image */
+}
+
+.pet-name {
+    font-size: 1.25rem; /* Font size for the pet name */
+    color: #555; /* Slightly lighter text color */
+    margin-bottom: 0; /* Remove margin at the bottom */
+}
+
+/* Custom CSS for the Contact Us Section */
+.contact-us-section {
+    padding: 60px 0; /* Add padding to the section */
+    background-color: #f8f9fa; /* Light background color */
+}
+
+.section-title {
+    font-size: 2.5rem; /* Large font size for the heading */
+    font-weight: bold; /* Bold text */
+    margin-bottom: 40px; /* Spacing below the heading */
+    color: #333; /* Dark text color */
+}
+
+.contact-form {
+    background-color: #fff; /* White background for the form */
+    padding: 30px; /* Add padding inside the form */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.form-label {
+    font-weight: bold; /* Bold labels for form fields */
+    color: #555; /* Slightly lighter text color */
+}
+
+.form-control {
+    margin-bottom: 20px; /* Spacing between form fields */
+    border-radius: 5px; /* Rounded corners for input fields */
+    border: 1px solid #ddd; /* Light border for input fields */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Primary button color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Add padding to the button */
+    border-radius: 5px; /* Rounded corners for the button */
+    font-size: 1rem; /* Font size for the button */
+    transition: background-color 0
+}
+
+/* Custom CSS for the FAQ Section */
+.faq-section {
+    padding: 60px 0; /* Add padding to the section */
+    background-color: #f8f9fa; /* Light background color */
+}
+
+.section-title {
+    font-size: 2.5rem; /* Large font size for the heading */
+    font-weight: bold; /* Bold text */
+    margin-bottom: 20px; /* Spacing below the heading */
+    color: #333; /* Dark text color */
+}
+
+.faq-description {
+    font-size: 1.1rem; /* Font size for the description */
+    color: #555; /* Slightly lighter text color */
+    line-height: 1.6; /* Improve readability with line height */
+    margin-bottom: 40px; /* Spacing below the description */
+}
+
+.question-section {
+    background-color: #fff; /* White background for the question section */
+    padding: 30px; /* Add padding inside the question section */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.question-item {
+    margin-bottom: 20px; /* Spacing between questions */
+}
+
+.question {
+    font-size: 1.25rem; /* Font size for the question */
+    font-weight: bold; /* Bold text for the question */
+    color: #333; /* Dark text color */
+    margin-bottom: 10px; /* Spacing below the question */
+}
+
+.answer {
+    font-size: 1rem; /* Font size for the answer */
+    color: #555; /* Slightly lighter text color */
+    line-height: 1.6; /* Improve readability with line height */
+}

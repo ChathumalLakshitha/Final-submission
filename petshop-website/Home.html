@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Paws & Clows</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg bg-light shadow-sm">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="reso/logo.png" alt="Logo" class="logo">
+            </a>
+
+            <!-- Navbar Toggler for Mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Search Bar -->
+            <form class="d-flex ms-auto search-bar">
+                <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+            </form>
+
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Categories.html">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="AboutUs.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ContactUs.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel Section -->
+    <div id="carousel" class="carousel slide custom-carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="reso/c1.png" class="d-block w-100" alt="Image 1">
+            </div>
+            <div class="carousel-item">
+                <img src="reso/c2.png" class="d-block w-100" alt="Image 2">
+            </div>
+            <div class="carousel-item">
+                <img src="reso/c3.png" class="d-block w-100" alt="Image 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- About Section -->
+    <div class="container mt-4">
+        <p class="text-center" style="max-width: 100%; margin: 0 auto;">
+            Paws & Clows is a dedicated pet shop designed to meet all your pet care needs under one roof. We offer a
+            variety of high-quality products, including nutritious pet food, fun toys, stylish accessories, grooming supplies, and more.
+            Whether you have a playful pup, a curious cat, or a feathered friend, we’ve got you covered! At Paws & Clows, we prioritize
+            your pet’s happiness and well-being. Our friendly team is here to help you choose the best products for your beloved companion.
+            Explore our categories today and give your pets the love, care, and attention they truly deserve! 🐾❤️
+        </p>
+    </div>
+
+    <!-- Flash Deals Section -->
+    <div class="container mt-5">
+        <h3>Flash Deals</h3>
+        <div id="flashDealsCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="row justify-content-center">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="reso/chiken.png" class="card-img-top" alt="Product 1">
+                                <div class="card-body text-center">
+                                    <p class="card-title">ZooRoyal Minka Chicken and Salmon Tray 100g</p>
+                                    <p class="card-text">Rs.1350/=</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="reso/saman.png" class="card-img-top" alt="Product 2">
+                                <div class="card-body text-center">
+                                    <p class="card-title">Macceral JosiCat Salmon in Sauce 415g</p>
+                                    <p class="card-text">Rs.850/=</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="reso/shampo.png" class="card-img-top" alt="Product 3">
+                                <div class="card-body text-center">
+                                    <p class="card-title">FURR Fresh 2 in 1 dog and cat Shampoo 300 ml</p>
+                                    <p class="card-text">Rs.1480/=</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="reso/chain.png" class="card-img-top" alt="Product 4">
+                                <div class="card-body text-center">
+                                    <p class="card-title">Trixie Premium Stop-the-pull Collar</p>
+                                    <p class="card-text">Rs.650/=</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="reso\jelly.png" class="card-img-top" alt="Product 5">
+                                <div class="card-body text-center">
+                                    <p class="card-title">JosiCat Chicken in Jelly 400g</p>
+                                    <p class="card-text">Rs.2350/=</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="reso/catfood.png" class="card-img-top" alt="Product 6">
+                                <div class="card-body text-center">
+                                    <p class="card-title">Josi Cat Crunchy Chicken</p>
+                                    <p class="card-text">Rs.4350/=</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="reso/fd7.png" class="card-img-top" alt="Product 7">
+                                <div class="card-body text-center">
+                                    <p class="card-title">JosiCat Beef in Jelly 400g</p>
+                                    <p class="card-text">Rs.1190/=</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="reso/fd8.png" class="card-img-top" alt="Product 8">
+                                <div class="card-body text-center">
+                                    <p class="card-title">JosiCat Kitten</p>
+                                    <p class="card-text">Rs.950/=</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Carousel Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#flashDealsCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#flashDealsCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Recommended Products Section -->
+    <div class="container mt-5">
+        <h3>Recommended Products</h3>
+        <div id="recommendedProductsCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row justify-content-center">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="reso/rp1.png" class="card-img-top" alt="Product 1">
+                                <div class="card-body text-center">
+                                    <p class="card-title">Josera High Energy</p>
+                                    <p class="card-text">Rs.1500/=</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="reso/rp2.png" class="card-img-top" alt="Product 2">
+                                <div class="card-body text-center">
+                                    <p class="card-title">Trixie Rope Dumbbell</p>
+                                    <p class="card-text">Rs.1120/=</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="reso/rp3.png" class="card-img-top" alt="Product 3">
+                                <div class="card-body text-center">
+                                    <p class="card-title">Dog Toy Playing Rope with Ball</p>
+                                    <p class="card-text">Rs.2300/=</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="reso/rp4.png" class="card-img-top" alt="Product 4">
+                                <div class="card-body text-center">
+                                    <p class="card-title">Trixie Premio Omega Stripes</p>
+                                    <p class="card-text">Rs.980/=</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#recommendedProductsCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#recommendedProductsCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- 30% Off Sale Section -->
+    <div class="container mt-5">
+        <h3>30% Off Sale</h3>
+        <div id="saleCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row justify-content-center">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="reso/off1.png" class="card-img-top" alt="Sale Product 1">
+                                <div class="card-body text-center">
+                                    <p class="card-title">Trixie Soft Snack Bony Mix 500g</p>
+                                    <p class="card-text">Rs.650/=</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="reso/off2.png" class="card-img-top" alt="Sale Product 2">
+                                <div class="card-body text-center">
+                                    <p class="card-title">Trixie Junior Soft Snack Dots</p>
+                                    <p class="card-text">Rs.1230/=</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="reso/off3.png" class="card-img-top" alt="Sale Product 3">
+                                <div class="card-body text-center">
+                                    <p class="card-title">Malt Paste</p>
+                                    <p class="card-text">Rs.700/=</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="reso/off4.png" class="card-img-top" alt="Sale Product 4">
+                                <div class="card-body text-center">
+                                    <p class="card-title">Trixie Salmon</p>
+                                    <p class="card-text">Rs.960/=</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#saleCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#saleCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="bg-light text-center text-lg-start">
+        <div class="container p-4">
+            <div class="row">
+                <!-- Logo Section -->
+                <div class="col-lg-12 text-left mb-4">
+                    <img src="reso/logo.png" alt="Logo" style="height: 50px;"> <!-- Adjust the height and src as needed -->
+                </div>
+
+                <!-- Address Section -->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Address</h5>
+                    <p>
+                        123 Main Street, City<br>
+                        State Province, Country
+                    </p>
+                </div>
+
+                <!-- Call Us Section -->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Call us</h5>
+                    <ul class="list-unstyled">
+                        <li>+94767692128</li>
+                        <li>+94741230346</li>
+                    </ul>
+                </div>
+
+                <!-- Main Menu Section -->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Main menu</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="Home.html" class="text-dark">Home</a></li>
+                        <li><a href="Categories.html" class="text-dark">Categories</a></li>
+                        <li><a href="AboutUs.html" class="text-dark">About us</a></li>
+                        <li><a href="ContactUs.html" class="text-dark">Contact us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Find Us On Section -->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Find us on</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-dark">Facebook</a></li>
+                        <li><a href="#" class="text-dark">X / Twitter</a></li>
+                        <li><a href="#" class="text-dark">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright and Links Section -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2024 Your Website. All rights reserved.
+            <a class="text-dark" href="#">Privacy Policy</a>
+            <a class="text-dark" href="#">Terms of Service</a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS (Make sure this is included after the Bootstrap CSS) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
